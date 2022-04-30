@@ -1,0 +1,31 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0px;
+    justify-content: space-around;
+}
+.nav-link{
+    display: flex;
+    flex-direction: row;  
+}
+
+.nav-li{
+    font-size: 17px;
+    margin: 0px 15px;
+    padding: 0px 15px;
+    
+}
+Link{
+    text-decoration: underline;
+}
+ul {
+    list-style-type: none;
+}
+.nav-items{
+    border: 2px solid red;
+    border-radius: 20px;
+}
+#li-4{
+    padding: 0px 40px 0px 0px;
+
+}

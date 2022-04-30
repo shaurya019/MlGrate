@@ -1,0 +1,10 @@
+.I-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.I-head{
+    border: 2px solid red;
+    height : 300px;
+    width: 550px ;
+}
