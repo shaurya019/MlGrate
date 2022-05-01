@@ -1,3 +1,11 @@
+.main-items{
+    margin: auto auto;
+}
+.items-Head{
+text-align: center;
+font-size: 35px;
+font-weight: 800;
+}
 .I-product{
     display: flex;
     flex-direction: row;
@@ -7,4 +15,22 @@
     border: 2px solid red;
     height : 300px;
     width: 550px ;
+}
+.I-line1 h3{
+    font-size: 37px;
+    font-weight: 700;
+    margin: 25px;
+}
+#it-1{
+    text-align: right;
+}
+#it-2{
+    text-align: left;
+}
+.I-line2 p{
+
+    padding: 10px 22px;
+    font-size: 15px;
+    line-height: 22px;
+
 }

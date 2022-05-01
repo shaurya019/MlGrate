@@ -10,7 +10,7 @@ const Item1 = () => {
      <div className="I-head">
      <div className="I-line1">
      {/* Bold line */}
-     <h2>About 1</h2>
+     <h3 id="it-1">About 1</h3>
     </div>
     <div className="I-line2">
      {/* para line */}

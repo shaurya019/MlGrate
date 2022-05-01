@@ -8,7 +8,10 @@ import "./pages.css"
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <div className="main-items">
+        <div className="items-Head">
+       <h2>One Click, Many Possibilities.</h2>
+        </div>
       <div className="H-items">
       <div className="packets">
       <Item1 />
@@ -21,6 +24,7 @@ const Home = () => {
       </div>
       <div className="packets">
       <Item4 />
+      </div>
       </div>
       </div>
     </div>
