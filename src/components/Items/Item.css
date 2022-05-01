@@ -12,25 +12,47 @@ font-weight: 800;
     justify-content: space-around;
 }
 .I-head{
-    border: 2px solid red;
     height : 300px;
     width: 550px ;
+}
+.I-head:hover{
+    border: 2px solid #fff;
+    border-radius: 10px;
+    width: 530px;
+    box-shadow: 2px 5px 5px 2px rgb(1 1 1 / 30%);
 }
 .I-line1 h3{
     font-size: 37px;
     font-weight: 700;
-    margin: 25px;
+}
+.min-line{
+    font-size: 25px;
+    color: #1a62f2;
+    font-weight: 700;
+    margin: 25px 25px 0px 25px;  
 }
 #it-1{
     text-align: right;
+    margin: 0px 19px 25px 25px;
 }
 #it-2{
     text-align: left;
+    margin: 0px 25px 25px 19px;
+}
+#it1{
+    text-align: right;
+    margin: 0px;
+}
+#it2{
+    text-align: left;
+    margin: 0px;
 }
 .I-line2 p{
 
     padding: 10px 22px;
-    font-size: 15px;
+    min-width: 22rem;
+    opacity: 0.7;
+    font-size: 1rem;
     line-height: 22px;
 
 }

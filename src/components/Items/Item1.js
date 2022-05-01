@@ -8,6 +8,9 @@ const Item1 = () => {
      <img style={{ height: 300 }} src="https://www.economist.com/sites/default/files/images/2015/09/blogs/economist-explains/code2.png" alt="logo" />
      </div>
      <div className="I-head">
+       <div className="min-line">
+       <h6 id="it1">About 1</h6>
+       </div>
      <div className="I-line1">
      {/* Bold line */}
      <h3 id="it-1">About 1</h3>

@@ -4,6 +4,9 @@ const Item2 = () => {
   return (
     <div className="I-product">
     <div className="I-head">
+    <div className="min-line">
+       <h6 id="it2">About 1</h6>
+       </div>
     <div className="I-line1">
      {/* Bold line */}
      <h3 id="it-2">About 2</h3>
