@@ -1,5 +1,7 @@
 import React from 'react'
-import Item1 from "../components/Items/Item1.js"
+import Section from "../components/Homesection/section"
+import PartSection from "../components/Homesection/partsection"
+import Item1 from "../components/Items/Item1"
 import Item2 from "../components/Items/Item2"
 import Item3 from "../components/Items/Item3"
 import Item4 from "../components/Items/Item4"
@@ -9,6 +11,12 @@ const Home = () => {
   return (
     <div>
       <div className="main-items">
+        <div className='section'>
+        <Section />
+        </div>
+        <div className='section'>
+        <PartSection />
+        </div>
         <div className="items-Head">
        <h2>One Click, Many Possibilities.</h2>
         </div>

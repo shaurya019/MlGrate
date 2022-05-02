@@ -9,3 +9,34 @@
 .packets{
     margin: 50px 0px;
 }
+.items-Head h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    }
+
+@media (max-width: 320px ) {
+
+}
+  
+  @media (min-width: 320px ) and (max-width: 375px ) {
+    
+  }
+  
+  @media (min-width: 375px ) and (max-width: 425px ) {
+   
+  }
+  
+  
+  @media (min-width: 768px ) and(max-width: 1024px ) {
+   
+  }
+  
+  @media (min-width: 1024px ) and(max-width: 1440px ) {
+    .items-Head h2{
+        text-align: end;
+        font-size: 31px;
+    }
+   
+  } 
+  

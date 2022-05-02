@@ -18,7 +18,7 @@ GitHub has over 40 million users and more than 190 million repositories from aro
     </div>
    </div>
    <div className="I-img">
-   <img style={{ height: 300 }} src="https://www.economist.com/sites/default/files/images/2015/09/blogs/economist-explains/code2.png" alt="logo" />
+   <img  src="https://www.economist.com/sites/default/files/images/2015/09/blogs/economist-explains/code2.png" alt="logo" />
     </div>
    </div>
   )

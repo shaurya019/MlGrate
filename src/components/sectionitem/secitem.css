@@ -1,0 +1,21 @@
+.sec-part{
+    display: flex;
+    flex-direction: column;
+}
+
+.secitem-logo img{
+display: flex;
+justify-content: center;
+}
+.sec-line h4{
+    font-size: 20px;
+    text-align: center;
+    width: 87%;
+}
+
+.sec-para p{
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    width: 87%;
+}
