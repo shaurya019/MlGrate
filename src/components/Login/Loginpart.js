@@ -16,7 +16,7 @@ const Loginpart = () => {
         );
     })
     return (
- <div className="containerx" id="container">
+ <div className="container" id="container">
          <div class="form-container sign-up-container">
              <form action="#">
                  <h1>Create Account</h1>
