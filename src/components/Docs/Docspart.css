@@ -1,0 +1,43 @@
+hr{
+    margin: 0px 100px;
+}
+.Docs-part{
+    margin: 40px 50px ;
+}
+.Docs-head{
+    margin: 20px;
+}
+.Docs-head h1{
+    font-size: 45px;
+    font-weight: 800;
+text-align: center;
+}
+.Docs-para p{
+text-align: center;
+margin-bottom: 20px;
+}
+.line1{
+    margin: 0px 200px;
+}
+.Docs-box{
+display: flex;
+flex-direction: column;
+}
+.Docsbox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.Docs-point{
+    font-size: 25px;
+    font-weight: 600;
+}
+#back-1{
+
+}
+#back-2{
+    
+}
+#back-3{
+    
+}

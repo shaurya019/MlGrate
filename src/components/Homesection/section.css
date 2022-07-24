@@ -2,7 +2,7 @@
     padding: 80px 40px;
 }
 .partsection{
-    padding: 80px 40px;
+    margin: 80px 40px;
 }
 .partsection-head{
     display: flex;
@@ -34,9 +34,9 @@
 .btn{
     
     border: 2px solid red;
-    font-size: 18.9px;
-    font-weight: 900;
-    padding: 0.1px 28.4px;
+    font-size: 26.9px;
+    font-weight: 700;
+    padding: 15.1px 28.4px;
     text-align: center;
 
 }

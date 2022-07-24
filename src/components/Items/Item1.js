@@ -15,10 +15,17 @@ const Item1 = () => {
      {/* Bold line */}
      <h3 id="it-1">About 1</h3>
     </div>
+    <div className="mllink">
     <div className="I-line2">
      {/* para line */}
      <p>GitHub is essentially a version control and code hosting platform for developers.
-GitHub has over 40 million users and more than 190 million repositories from around the world which makes it the largest storehouse of collaborative work for developers. Besides contributing to a specific project, GitHub allows users to associate with like-minded people. You can follow people and watch what they do or who they are connecting with.</p>
+GitHub has over 40 million users and more than 190 million repositories from around the world which makes it the largest storehouse of collaborative work for developers. </p>
+    </div>
+    <div className="ml-btn">
+          <div className="Mtn">
+            <div className="mtn" id="mtn-1">TRY NOW</div>
+          </div>
+        </div>
     </div>
     </div>
     </div>

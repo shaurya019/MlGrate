@@ -9,8 +9,8 @@ const Partsection = () => {
     <div className="partsection">
     <div className="partsection-head">
     <Sec1 />
-         <Sec2 />
-         <Sec3 />
+    <Sec2 />
+    <Sec3 />
     </div>
   </div>
   )

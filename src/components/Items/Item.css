@@ -46,8 +46,27 @@
     text-align: left;
     margin: 0px;
 }
-.I-line2 p{
+.ml-btn{
+    margin: 30px 0px;
+}
+.Mtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 20px;
+}
+.mtn{
+    
+    border: 2px solid red;
+    font-size: 18.9px;
+    font-weight: 700;
+    padding: 8.1px 28.4px;
+    text-align: center;
 
+}
+
+
+.I-line2 p{
     padding: 10px 22px;
     min-width: 22rem;
     opacity: 0.7;

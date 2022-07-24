@@ -23,18 +23,18 @@ const Navigation = () => {
             </Link>
           </li>
           <li className="nav-li">
-            <Link to="/Login" id="">
-              Login
+            <Link to="/AP" id="">
+              Admin Panel
             </Link>
           </li>
           <li className="nav-li">
-            <Link to="/" id="">
-              Page1
+            <Link to="/extra" id="">
+            extra
             </Link>
           </li>
           <li className="nav-li" id="li-4">
-            <Link to="/" id="">
-              Page2
+            <Link to="/Login" id="">
+            Login
             </Link>
           </li>
         </ul>

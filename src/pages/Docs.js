@@ -1,9 +1,10 @@
 import React from 'react'
+import Docspart from "../components/Docs/Docspart.js"
 
 const Docs = () => {
   return (
-    <div>
-      <h1>Docs</h1>
+    <div className="Docs-main">
+       <Docspart />
     </div>
   )
 }
