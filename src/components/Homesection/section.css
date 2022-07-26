@@ -32,8 +32,8 @@
     justify-content: center;
 }
 .btn{
-    
-    border: 2px solid red;
+    border: 2px solid;
+    border-radius: 10px;
     font-size: 26.9px;
     font-weight: 700;
     padding: 15.1px 28.4px;
@@ -42,7 +42,11 @@
 }
 #btn-1{
     margin: 0px 12px 0px 0px;
+    border-color: aliceblue;
+    background-color: #0078AA;
+    color: #ffff;
 }
 #btn-2{
-    
+    background-color: #EF5B0C;
+    color: #ffff;
 }

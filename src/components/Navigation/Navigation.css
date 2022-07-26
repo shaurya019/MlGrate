@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .nav{
     display: flex;
     flex-direction: row;
@@ -10,11 +13,16 @@
 }
 
 .nav-li{
-    font-size: 17px;
+
     margin: 0px 15px;
     padding: 0px 15px;
-    
 }
+.nav-li a{
+    color: #EF5B0C;
+    font-size: 22px;
+    font-weight: 600;
+}
+
 Link{
     text-decoration: none;
 }
@@ -22,10 +30,29 @@ ul {
     list-style-type: none;
 }
 .nav-items{
-    border: 2px solid red;
+    border: 2px solid #0078AA;
     border-radius: 20px;
 }
 #li-4{
     padding: 0px 40px 0px 0px;
 
+}
+a{
+    position: relative;
+}
+a:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -5px;
+    background: #0078AA;
+    transition: 0.3s; 
+}
+a:hover{
+    color: #EF5B0C;
+}
+a:hover::after{
+    width: 100%;
 }

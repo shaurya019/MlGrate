@@ -15,7 +15,7 @@ const Docspart = () => {
         </div>
         <div className="Docs-box">
         <div className="Docsbox" id="back-1">
-        <h3 className="Docs-point">NPM</h3>
+        <h3 className="Docs-point">Node</h3>
         <p className=""></p>
         </div>
         <hr/>

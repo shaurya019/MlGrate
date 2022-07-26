@@ -5,12 +5,12 @@
 }
 
 
-h1 {
+.h1 {
     font-weight: bold;
     margin: 0;
 }
 
-p {
+.p {
     font-size: 14px;
     font-weight: 100;
     line-height: 20px;
@@ -22,7 +22,7 @@ span {
     font-size: 12px;
 }
 
-a {
+.social {
     color: #333;
     font-size: 14px;
     text-decoration: none;
@@ -75,13 +75,13 @@ a {
 }
 
 .btn-form {
-    border-radius: 20px;
-    border: 1px solid #ff4b2b;
-    background: #ff445c;
+    border-radius: 10px;
+    border: 1px solid  #1488CC;
+    background: linear-gradient(to right, #1488CC, #2B32B1) no-repeat 0 0 / cover;;
     color: #fff;
     font-size: 12px;
     font-weight: bold;
-    padding: 12px 45px;
+    padding: 12px 35px;
     letter-spacing: 1px;
     text-transform: uppercase;
     transition: transform 80ms ease-in;
@@ -99,7 +99,9 @@ a {
     background: transparent;
     border-color: #fff;
 }
-
+.forget{
+    margin: 10px 0px;
+}
 .form-container {
     position: absolute;
     top: 0;
@@ -132,8 +134,8 @@ a {
 }
 
 .overlay {
-    background: #ff416c;
-    background: linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    background: #1488CC;
+    background: linear-gradient(to right, #1488CC, #2B32B1) no-repeat 0 0 / cover;
     color: #fff;
     position: relative;
     left: -100%;

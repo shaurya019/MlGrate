@@ -5,12 +5,12 @@ hr{
     margin: 40px 50px ;
 }
 .Docs-head{
-    margin: 20px;
+    margin: 30px 0px 120px 0px ;
 }
 .Docs-head h1{
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 800;
-text-align: center;
+    text-align: center;
 }
 .Docs-para p{
 text-align: center;
@@ -26,11 +26,11 @@ flex-direction: column;
 .Docsbox{
     display: flex;
     flex-direction: column;
-    margin-bottom: 25px;
+    margin: 25px 0px;
 }
 .Docs-point{
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 29px;
+    font-weight: 800;
 }
 #back-1{
 
