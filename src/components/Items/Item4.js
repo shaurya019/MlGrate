@@ -6,9 +6,9 @@ const Item4 = () => {
     <div className="I-head">
     <div className="I-line1">
      {/* Bold line */}
-     <h3 id="it-2">
-      Image capturing
-     </h3>
+     <a>
+         <span id="it-1">Text Prediction</span>
+       </a>
     </div>
     <div className="mllink">
     <div className="I-line2">

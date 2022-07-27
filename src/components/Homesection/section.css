@@ -18,23 +18,24 @@
     margin: 0px 0px 16px;
 }
 .section-line h4{
+    color: #505050;
     text-align: center;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
     margin: 0px 0px 20px;
 }
 .section-btn{
-    margin: 30px 0px;
+    margin: 10px 0px;
 }
 .Btn{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.btn{
+.btN{
     border: 2px solid;
     border-radius: 10px;
-    font-size: 26.9px;
+    font-size: 22.9px;
     font-weight: 700;
     padding: 15.1px 28.4px;
     text-align: center;

@@ -1,11 +1,12 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Docspart.css"
 
 const Docspart = () => {
     return (
         <div className="Docs-part">
         <div className="Docs-head">
-        <h1>Try some documents</h1>
+        <h1>Read documents</h1>
         <div className="Docs-para">
         <p>
         A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of three or more sentences.
@@ -30,6 +31,7 @@ const Docspart = () => {
         </div>
         <hr/>
         </div>
+        <div class="footer-bar"><p className="footer-bar-para">© 2022 MlGrate. All rights reserved.</p></div>
         </div>
 
 

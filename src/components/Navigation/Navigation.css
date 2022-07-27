@@ -10,6 +10,7 @@
 .nav-link{
     display: flex;
     flex-direction: row;  
+    margin-bottom: 0px;
 }
 
 .nav-li{
@@ -18,7 +19,7 @@
     padding: 0px 15px;
 }
 .nav-li a{
-    color: #F47C7C;
+    color: #FFAB76;
     font-size: 22px;
     font-weight: 600;
 }
@@ -37,10 +38,10 @@ ul {
     padding: 0px 40px 0px 0px;
 
 }
-a{
+.nav-li a{
     position: relative;
 }
-a:after{
+.nav-li a:after{
     content: '';
     position: absolute;
     width: 0;
@@ -50,9 +51,9 @@ a:after{
     background: #0078AA;
     transition: 0.3s; 
 }
-a:hover{
+.nav-li a:hover{
     color: #EF5B0C;
 }
-a:hover::after{
+.nav-li a:hover::after{
     width: 100%;
 }

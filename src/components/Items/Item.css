@@ -20,9 +20,12 @@
     /* width: 530px; */
     /* box-shadow: 2px 5px 5px 2px rgb(1 1 1 / 30%); */
 /* } */ 
-.I-line1 h3{
-    font-size: 37px;
+.I-line1 a span{
+    font-size: 30px;
     font-weight: 700;
+}
+.I-line1 a span:hover{
+   color: #ECB390;
 }
 .min-line{
     font-size: 25px;

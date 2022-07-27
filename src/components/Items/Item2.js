@@ -7,7 +7,9 @@ const Item2 = () => {
     <div className="I-head">
     <div className="I-line1">
      {/* Bold line */}
-     <h3 id="it-2">Cartoonify</h3>
+     <a>
+         <span id="it-1">Text Analysis</span>
+       </a>
     </div>
     <div className="mllink">
     <div className="I-line2">

@@ -10,7 +10,9 @@ const Item1 = () => {
      </div>
      <div className="I-head">
      <div className="I-line1">
-     <h3 id="it-1">Sentimental Analysis</h3>
+       <a>
+         <span id="it-1">Sentimental Analysis</span>
+       </a>
     </div>
     <div className="mllink">
     <div className="I-line2">

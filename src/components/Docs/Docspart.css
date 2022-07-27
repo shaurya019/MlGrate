@@ -2,8 +2,7 @@ hr{
     margin: 0px 100px;
 }
 .Docs-part{
-    margin: 40px 50px ;
-    padding: 40px 0;
+    margin: 40px 50px 10px 20px;
 }
 .Docs-head{
     margin: 30px 0px 120px 0px ;
@@ -14,17 +13,21 @@ hr{
     background-repeat: no-repeat;
     background-position: bottom;
     padding: 2px 12px;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 800;
     text-align: center;
 }
 .Docs-para p{
+    color: #505050;
 text-align: center;
 margin-bottom: 10px;
 }
 .line1{
     margin: 0px 200px;
 }
+/* hr{
+    color: #F2DF3A;
+} */
 .Docs-box{
 display: flex;
 flex-direction: column;
@@ -38,7 +41,18 @@ flex-direction: column;
     font-size: 29px;
     font-weight: 800;
 }
-#back-1{
+.footer-bar{
+    color: #505050;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-weight: 800;
+}
+/* .footer-bar-para
+{
+    
+} */
+/* #back-1{
 
 }
 #back-2{
@@ -46,4 +60,4 @@ flex-direction: column;
 }
 #back-3{
     
-}
+} */

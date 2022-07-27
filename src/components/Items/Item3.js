@@ -9,7 +9,9 @@ const Item3 = () => {
      <div className="I-head">
      <div className="I-line1">
      {/* Bold line */}
-     <h3 id="it-1">Image processing</h3>
+     <a>
+         <span id="it-1">Cartoonify</span>
+       </a>
     </div>
     <div className="mllink">
     <div className="I-line2">
