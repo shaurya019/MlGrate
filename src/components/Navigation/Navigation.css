@@ -18,7 +18,7 @@
     padding: 0px 15px;
 }
 .nav-li a{
-    color: #EF5B0C;
+    color: #F47C7C;
     font-size: 22px;
     font-weight: 600;
 }
@@ -30,7 +30,7 @@ ul {
     list-style-type: none;
 }
 .nav-items{
-    border: 2px solid #0078AA;
+    border: 2px solid hsla(8, 89%, 18%, 0.2);
     border-radius: 20px;
 }
 #li-4{

@@ -46,7 +46,13 @@
     background-color: #0078AA;
     color: #ffff;
 }
+/* #btn-1:hover{
+
+} */
 #btn-2{
     background-color: #EF5B0C;
     color: #ffff;
+}
+.but2:hover{
+    background-color: #334756;
 }

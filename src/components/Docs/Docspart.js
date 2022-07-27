@@ -5,12 +5,12 @@ const Docspart = () => {
     return (
         <div className="Docs-part">
         <div className="Docs-head">
-        <h1>Documentation</h1>
+        <h1>Try some documents</h1>
         <div className="Docs-para">
         <p>
         A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of three or more sentences.
         </p>
-        <hr className="line1"/>
+
         </div>
         </div>
         <div className="Docs-box">

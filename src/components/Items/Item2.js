@@ -1,15 +1,13 @@
 import React from 'react'
+import Linkitem from './linkitem';
 
 const Item2 = () => {
   return (
     <div className="I-product">
     <div className="I-head">
-    <div className="min-line">
-       <h6 id="it2">About 1</h6>
-       </div>
     <div className="I-line1">
      {/* Bold line */}
-     <h3 id="it-2">About 2</h3>
+     <h3 id="it-2">Cartoonify</h3>
     </div>
     <div className="mllink">
     <div className="I-line2">
@@ -17,11 +15,9 @@ const Item2 = () => {
      <p>GitHub is essentially a version control and code hosting platform for developers.
 GitHub has over 40 million users and more than 190 million repositories from around the world which makes it the largest storehouse of collaborative work for developers. </p>
     </div>
-    <div className="ml-btn">
-          <div className="Mtn">
-            <div className="mtn" id="mtn-1">TRY NOW</div>
-          </div>
-        </div>
+    <div>
+         <Linkitem />
+    </div>
     </div>
    </div>
    <div className="I-img">

@@ -13,8 +13,8 @@ const Section = () => {
         </div>
         <div className="section-btn">
           <div className="Btn">
-            <div className="btn" id="btn-1">Get Started</div>
-            <div className="btn" id="btn-2">Documentation</div>
+            <div className="btn but1" id="btn-1">Get Started</div>
+            <div className="btn but2" id="btn-2">Documentation</div>
           </div>
         </div>
       </div>

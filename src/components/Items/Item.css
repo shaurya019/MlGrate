@@ -14,12 +14,12 @@
     height : 300px;
     width: 550px ;
 }
-.I-head:hover{
+/* .I-head:hover{
     border: 2px solid #fff;
     border-radius: 10px;
     /* width: 530px; */
-    box-shadow: 2px 5px 5px 2px rgb(1 1 1 / 30%);
-}
+    /* box-shadow: 2px 5px 5px 2px rgb(1 1 1 / 30%); */
+/* } */ 
 .I-line1 h3{
     font-size: 37px;
     font-weight: 700;
@@ -56,16 +56,20 @@
     margin-right: 20px;
 }
 .mtn{
-    
-    border: 2px solid red;
-    font-size: 18.9px;
-    font-weight: 700;
-    padding: 8.1px 28.4px;
-    text-align: center;
-
+    background-color: rgba(240,142,128,.1);
+    color: #FF5733;
+    padding: 6px 10px;
+    border-radius: 2px;
+    transition: .15s;
+    text-transform: capitalize;
 }
-
-
+.mtn h6{
+    margin: 0px;
+}
+.mtn:hover{
+    background-color: #FF4C29;
+    color: #fff;
+}
 .I-line2 p{
     padding: 10px 22px;
     min-width: 22rem;
@@ -77,6 +81,7 @@
 .I-img img{
     height: 300px;
 }
+
 /* @media (max-width: 320px ) {
 
 }

@@ -18,7 +18,7 @@ const Home = () => {
         <PartSection />
         </div>
         <div className="items-Head">
-       <h2>One Click, Many Possibilities.</h2>
+       <h2>One Click</h2>
         </div>
       <div className="H-items">
       <div className="packets">
