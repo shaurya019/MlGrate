@@ -113,9 +113,12 @@
 }
 
 .I-img img{
-    height: 300px;
+    height: 250px;
 }
-
+.img-flex{
+    display: flex;
+    flex-direction: row;
+}
 /* @media (max-width: 320px ) {
 
 }

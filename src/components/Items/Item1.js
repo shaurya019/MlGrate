@@ -6,7 +6,7 @@ const Item1 = () => {
   return (
     <div className="I-product">
      <div className="I-img">
-     <img src="https://www.economist.com/sites/default/files/images/2015/09/blogs/economist-explains/code2.png" alt="logo" />
+     <img src="https://www.teamsupport.com/hubfs/6.29.20_week%20of%20Blog_Sentiment%20vs.%20CDI_Part%201_iStock-1134027636.jpg" alt="logo" />
      </div>
      <div className="II-product">
      <div className="I-head">
@@ -18,8 +18,7 @@ const Item1 = () => {
      </div>
      <div class="content">
      <div className="I-line2">
-<p>GitHub is essentially a version control and code hosting platform for developers.
-GitHub has over 40 million users and more than 190 million repositories from around the world which makes it the largest storehouse of collaborative work for developers. </p>
+<p>Sentiment analysis, also referred to as opinion mining, is an approach to natural language processing (NLP) that identifies the emotional tone behind a body of text. This is a popular way for organizations to determine and categorize opinions about a product, service, or idea. </p>
 </div>
      </div>
     </div>
