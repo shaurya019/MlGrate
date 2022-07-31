@@ -1,20 +1,28 @@
 import React from "react";
 import "./section.css"
+import logo from "../../assets/logo.png"
+import { Link } from "react-router-dom";
 
 const Section = () => {
   return (
     <div className="section">
       <div className="section-head">
         <div className="section-logo">
-          <img src="" alt="logo" />
+          <img src={logo} alt="logo" style={{ height: 200 }} />
         </div>
         <div className="section-line">
           <h4>Bidirectional and low-latency communication for every platform</h4>
         </div>
         <div className="section-btn">
           <div className="Btn">
-            <div className="btN but1" id="btn-1">Get Started</div>
-            <div className="btN but2" id="btn-2">Documentation</div>
+            <Link to='/Login'>
+              <div className="btN but1" id="btn-1">
+                Get Started
+              </div>
+            </Link>
+            <Link to='/Docs'>
+              <div className="btN but2" id="btn-2">Documentation</div>
+            </Link>
           </div>
         </div>
       </div>

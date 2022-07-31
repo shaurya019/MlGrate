@@ -39,7 +39,10 @@
     font-weight: 700;
     padding: 15.1px 28.4px;
     text-align: center;
-
+    transition: 0.2s;
+}
+.btN:hover{
+    opacity: 0.9;
 }
 #btn-1{
     margin: 0px 12px 0px 0px;
@@ -54,6 +57,6 @@
     background-color: #EF5B0C;
     color: #ffff;
 }
-.but2:hover{
+/* #btn2:hover{
     background-color: #334756;
-}
+} */

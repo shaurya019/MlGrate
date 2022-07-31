@@ -2,46 +2,47 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Naviextra from "./Naviextra.js"
 import './Navigation.css'
+import logo from '../../assets/logo.png'
 
 const Navigation = () => {
-  return (
-    <div className="nav">
-      <div className="nav-image">
-        <Link to="/">
-          <img style={{ height: 45 }} src="" alt="logo" />
-        </Link>
-      </div>
-      <div className="nav-items">
-        <ul className="nav-link">
-          <li className="nav-li">
-            <Link to="/" id="link-1">
-              Home
-            </Link>
-          </li>
-          <li className="nav-li">
-            <Link to="/Docs" id="">
-              Docs
-            </Link>
-          </li>
-          <li className="nav-li">
-            <Link to="/AP" id="">
-              Admin Panel
-            </Link>
-          </li>
-          <li className="nav-li">
-            <Link to="/extra" id="">
-            <Naviextra />
-            </Link>
-          </li>
-          <li className="nav-li" id="li-4">
-            <Link to="/Login" id="">
-            Login
-            </Link>
-          </li>
-        </ul>
-      </div>
-    </div>
-  );
+	return (
+		<div className="nav">
+			<div className="nav-image">
+				<Link to="/">
+					<img style={{height:'75px'}} src={logo} alt="logo" />
+				</Link>
+			</div>
+			<div className="nav-items">
+				<ul className="nav-link">
+					<li className="nav-li">
+						<Link to="/" id="link-1">
+							Home
+						</Link>
+					</li>
+					<li className="nav-li">
+						<Link to="/Docs" id="">
+							Docs
+						</Link>
+					</li>
+					<li className="nav-li">
+						<Link to="/AP" id="">
+							Admin Panel
+						</Link>
+					</li>
+					<li className="nav-li">
+						<Link to="/extra" id="">
+							<Naviextra />
+						</Link>
+					</li>
+					<li className="nav-li" id="li-4">
+						<Link to="/Login" id="">
+							Login
+						</Link>
+					</li>
+				</ul>
+			</div>
+		</div>
+	);
 };
 
 export default Navigation;
@@ -58,26 +59,26 @@ export default Navigation;
 					</span>
 					<span class="text">Sports</span>
 				</div>
-				</a>
+			</a>
 				<div class="dd_menu">
 					<ul>
 						<li>
 							<a href="#" class="dd_menu_a">
 								<div class="wrap">
 									<span class="icon">
-									<i class="fas fa-running" aria-hidden="true"></i>
+										<i class="fas fa-running" aria-hidden="true"></i>
 									</span>
 									<span class="text">
-									Running
+										Running
 									</span>
 								</div>
 							</a>
 						</li>
 						<li>
-							<a href="#"  class="dd_menu_a">
+							<a href="#" class="dd_menu_a">
 								<div class="wrap">
 									<span class="icon">
-									<i class="fas fa-biking" aria-hidden="true"></i>
+										<i class="fas fa-biking" aria-hidden="true"></i>
 									</span>
 									<span class="text">Biking</span>
 								</div>
@@ -88,10 +89,10 @@ export default Navigation;
 										<a href="#">
 											<div class="wrap">
 												<span class="icon">
-												<i class="fas fa-running" aria-hidden="true"></i>
+													<i class="fas fa-running" aria-hidden="true"></i>
 												</span>
 												<span class="text">
-												Running
+													Running
 												</span>
 											</div>
 										</a>
@@ -100,7 +101,7 @@ export default Navigation;
 										<a href="#">
 											<div class="wrap">
 												<span class="icon">
-												<i class="fas fa-biking" aria-hidden="true"></i>
+													<i class="fas fa-biking" aria-hidden="true"></i>
 												</span>
 												<span class="text">Biking</span>
 											</div>
@@ -109,20 +110,20 @@ export default Navigation;
 									<li>
 										<a href="#">
 											<div class="wrap">
-											<span class="icon">
-											<i class="far fa-futbol" aria-hidden="true"></i>
-											</span>
-											<span class="text">Football</span>
+												<span class="icon">
+													<i class="far fa-futbol" aria-hidden="true"></i>
+												</span>
+												<span class="text">Football</span>
 											</div>
 										</a>
 									</li>
 									<li>
 										<a href="#">
 											<div class="wrap">
-											<span class="icon">
-											<i class="fas fa-swimmer" aria-hidden="true"></i>
-											</span>
-											<span class="text">Swimmer</span>
+												<span class="icon">
+													<i class="fas fa-swimmer" aria-hidden="true"></i>
+												</span>
+												<span class="text">Swimmer</span>
 											</div>
 										</a>
 									</li>
@@ -130,29 +131,29 @@ export default Navigation;
 							</div>
 						</li>
 						<li>
-							<a href="#"  class="dd_menu_a">
+							<a href="#" class="dd_menu_a">
 								<div class="wrap">
-								<span class="icon">
-								<i class="far fa-futbol" aria-hidden="true"></i>
-								</span>
-								<span class="text">Football</span>
+									<span class="icon">
+										<i class="far fa-futbol" aria-hidden="true"></i>
+									</span>
+									<span class="text">Football</span>
 								</div>
 							</a>
 						</li>
 						<li>
-							<a href="#"  class="dd_menu_a">
+							<a href="#" class="dd_menu_a">
 								<div class="wrap">
-								<span class="icon">
-								<i class="fas fa-swimmer" aria-hidden="true"></i>
-								</span>
-								<span class="text">Swimmer</span>
+									<span class="icon">
+										<i class="fas fa-swimmer" aria-hidden="true"></i>
+									</span>
+									<span class="text">Swimmer</span>
 								</div>
 							</a>
 						</li>
 					</ul>
 				</div>
 			</li>
-			</ul>
+		</ul>
 	</div>
 </div>
 

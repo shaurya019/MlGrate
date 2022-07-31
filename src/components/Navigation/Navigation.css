@@ -6,6 +6,7 @@
     flex-direction: row;
     margin: 25px 0px;
     justify-content: space-around;
+    align-items: center;
 }
 .nav-link{
     display: flex;
