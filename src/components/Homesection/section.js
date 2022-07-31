@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useEffect, useRef } from 'react';
+import lottie from 'lottie-web';
 import "./section.css"
 import logo from "../../assets/logo.png"
 import { Link } from "react-router-dom";
 
 const Section = () => {
+  const container = useRef(null)
+  useEffect(() => {
+    lottie.loadAnimation({
+      container: container.current,
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      animationData: require('../../assets/background.json')
+    })
+  }, [])
   return (
     <div className="section">
-      <div className="section-head">
+      <div className="sec-lottie" ref={container}></div>
+      <div className="section-head" >
         <div className="section-logo">
           <img src={logo} alt="logo" style={{ height: 200 }} />
         </div>

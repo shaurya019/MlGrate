@@ -1,10 +1,16 @@
 .section{
+    position: relative;
     padding: 80px 40px;
+}
+.sec-lottie{
+    position: absolute;
+    z-index: -1;
 }
 .partsection{
     margin: 80px 40px;
 }
 .partsection-head{
+    
     display: flex;
     flex-direction: row;
 }

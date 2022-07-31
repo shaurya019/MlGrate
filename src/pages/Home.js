@@ -1,4 +1,6 @@
-import React from 'react'
+
+import React, { useEffect, useRef } from 'react';
+import lottie from 'lottie-web';
 import Section from "../components/Homesection/section"
 import PartSection from "../components/Homesection/partsection"
 import Item1 from "../components/Items/Item1"
@@ -7,11 +9,14 @@ import Item3 from "../components/Items/Item3"
 import Item4 from "../components/Items/Item4"
 import "./pages.css"
 
+
 const Home = () => {
+
+ 
   return (
     <div>
       <div className="main-items">
-        <div className='section'>
+        <div className='section' >
         <Section />
         </div>
         <div className='section'>
