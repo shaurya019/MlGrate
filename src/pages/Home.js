@@ -13,11 +13,23 @@ import "./pages.css"
 const Home = () => {
 
  
+  const container = useRef(null)
+  useEffect(()=>{
+    lottie.loadAnimation({
+      container:container.current,
+      renderer:'svg',
+      loop: true,
+      autoplay:true,
+      animationData:require('./background.json')
+    })
+  },[])
   return (
     <div>
       <div className="main-items">
         <div className='section' >
         <Section />
+        </div>
+        <div className='container' ref={container}>
         </div>
         <div className='section'>
         <PartSection />

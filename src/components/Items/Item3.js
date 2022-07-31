@@ -16,9 +16,7 @@ const Item3 = () => {
      </div>
      <div class="content">
      <div className="I-line2">
-<p>Image Captioning is the process of generating textual description of an image. It uses both Natural Language Processing and Computer Vision to generate the captions.
-
-</p>
+<p>Image Captioning is the process of generating textual description of an image. It uses both Natural Language Processing and Computer Vision to generate the captions. </p>
 </div>
      </div>
     </div>

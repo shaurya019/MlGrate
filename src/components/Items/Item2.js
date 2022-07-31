@@ -9,12 +9,12 @@ const Item2 = () => {
      <div class="profile">
      <div className="I-line1">
      <a>
-    <span id="it-1">Pic2sketch</span>
+    <span id="it-1">Pic 2 sketch</span>
      </a>
      </div>
      <div class="content">
      <div className="I-line2">
-<p>An image is just a two-dimensional array of integers. So one can do a couple of matrix manipulations using various python modules in order to get some very interesting effects. In order to convert the normal image to a sketch, in this way a sketch of the input image will be generated. </p>
+<p>we will try to convert a normal photo into a pencil sketch using computer vision in a python programming language. </p>
 </div>
      </div>
     </div>
@@ -23,7 +23,7 @@ const Item2 = () => {
          <Linkitem />
     </div>
    </div>
-   <div className="I-img img-flex">
+   <div className="I-img imgflex">
    <img  src="https://media.geeksforgeeks.org/wp-content/uploads/20200910185931/input2-300x295.jpg" alt="logo" />
    <img  src="https://media.geeksforgeeks.org/wp-content/uploads/20200910185936/output2-300x295.jpg" alt="logo" />
     </div>
