@@ -28,7 +28,24 @@ span {
     text-decoration: none;
     margin: 15px 0;
 }
-
+.social-f{
+    background:url("https://pbs.twimg.com/profile_images/1453818753880190978/HqrrEcrI_400x400.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.social-g{
+    background:url("https://www.typeroom.eu/assets/original/2020/10/09/gmail_new_logo_typeroom.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.social-gi{
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV1Ar1v7ZbC2YrZopAE4Bi01K29jgK0H2yUHXe8qzCPsM16hnslYmr1yxs-Jy_ifejCDU&usqp=CAU") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .container {
     background: #fff;
     border-radius: 10px;
@@ -96,8 +113,8 @@ span {
 }
 
 .btn-form.ghost {
-    background: transparent;
-    border-color: #fff;
+    background: #fff;
+    color: #1488CC;
 }
 .forget{
     margin: 10px 0px;

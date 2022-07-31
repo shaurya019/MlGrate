@@ -21,9 +21,9 @@ const Loginpart = () => {
              <form action="#">
                  <h1 className='h1'>Create Account</h1>
                  <div className="social-container">
-                     <a href="#" className="social"><i className="fab fa-facebook-f"></i></a>
-                     <a href="#" className="social"><i className="fab fa-google-plus-g"></i></a>
-                     <a href="#" className="social"><i className="fab fa-linkedin-in"></i></a>
+                     <a href="#" className="social-f"></a>
+                     <a href="#" className="social-g"></a>
+                     <a href="#" className="social-gi"></a>
                  </div>
                  <span>or use your email for registration</span>
                  <input type="text" placeholder="Name" />
@@ -36,9 +36,9 @@ const Loginpart = () => {
              <form action="#">
                  <h1 className='h1'>Sign in</h1>
                  <div className="social-container">
-                     <a href="#" className="social"><i className="fab fa-facebook-f"></i></a>
-                     <a href="#" className="social"><i className="fab fa-google-plus-g"></i></a>
-                     <a href="#" className="social"><i className="fab fa-linkedin-in"></i></a>
+                 <a href="#" className="social-f"></a>
+                     <a href="#" className="social-g"></a>
+                     <a href="#" className="social-gi"></a>
                  </div>
                  <span>or use your account</span>
                  <input type="email" placeholder="Email" />
