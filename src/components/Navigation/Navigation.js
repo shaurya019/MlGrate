@@ -4,7 +4,8 @@ import Naviextra from "./Naviextra.js"
 import './Navigation.css'
 import logo from '../../assets/logo.png'
 
-const Navigation = () => {
+const Navigation = (props) => {
+	const data = props.isloaggedin;
 	return (
 		<div className="nav">
 			<div className="nav-image">
@@ -25,20 +26,26 @@ const Navigation = () => {
 						</Link>
 					</li>
 					<li className="nav-li">
-						<Link to="/AP" id="">
-							Admin Panel
-						</Link>
-					</li>
-					<li className="nav-li">
 						<Link to="/extra" id="">
 							<Naviextra />
 						</Link>
 					</li>
+					{data ? 
+					<li className="nav-li Profile">
+						
+						<Link to="/Profile" id="">
+							{data.email}
+						</Link>
+					</li>
+					:
 					<li className="nav-li" id="li-4">
 						<Link to="/Login" id="">
 							Login
 						</Link>
 					</li>
+					}
+					
+					
 				</ul>
 			</div>
 		</div>
