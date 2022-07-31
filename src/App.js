@@ -52,12 +52,12 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Docs" element={<Docs />} />
+            {/* <Route path="/Extra" element={<extra />} /> */}
             <Route path="/Profile" element={
               <Protected isLoggedIn={isloaggedin}>
                 <AP />
               </Protected>
             } />
-            <Route path="/Extra" element={<extra />} />
             <Route path="/Login" element={<Login />} />
 
           </Routes>

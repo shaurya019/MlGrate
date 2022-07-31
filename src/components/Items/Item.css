@@ -57,7 +57,7 @@
     text-decoration: none;
  background: linear-gradient(to right, #7F8487 50%, #FF5858 50%, #CC2E5D);
  background-size: 200%;
- /* -webkit-background-clip: text; */
+ -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
  transition: 0.5s ease-out;
 }

@@ -1,6 +1,5 @@
 
-import React, { useEffect, useRef } from 'react';
-import lottie from 'lottie-web';
+import React from 'react';
 import Section from "../components/Homesection/section"
 import PartSection from "../components/Homesection/partsection"
 import Item1 from "../components/Items/Item1"
@@ -11,25 +10,12 @@ import "./pages.css"
 
 
 const Home = () => {
-
- 
-  const container = useRef(null)
-  useEffect(()=>{
-    lottie.loadAnimation({
-      container:container.current,
-      renderer:'svg',
-      loop: true,
-      autoplay:true,
-      animationData:require('./background.json')
-    })
-  },[])
   return (
     <div>
       <div className="main-items">
         <div className='section' >
         <Section />
         </div>
-        <div className='container' ref={container}>
         </div>
         <div className='section'>
         <PartSection />
@@ -52,7 +38,6 @@ const Home = () => {
       </div>
       </div>
       </div>
-    </div>
   )
 }
 
