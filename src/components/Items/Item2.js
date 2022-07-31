@@ -4,6 +4,7 @@ import Linkitem from './linkitem';
 const Item2 = () => {
   return (
     <div className="I-product">
+       <div className="II-product">
       <div className="I-head">
      <div class="profile">
      <div className="I-line1">
@@ -17,9 +18,10 @@ const Item2 = () => {
 GitHub has over 40 million users and more than 190 million repositories from around the world which makes it the largest storehouse of collaborative work for developers. </p>
 </div>
      </div>
+    </div>
+    </div>
     <div>
          <Linkitem />
-    </div>
     </div>
    </div>
    <div className="I-img">

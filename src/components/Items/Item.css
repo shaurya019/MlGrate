@@ -10,8 +10,12 @@
     flex-direction: row;
     justify-content: space-around;
 }
+.II-product{
+    display: flex;
+    flex-direction: column;
+}
 .I-head{
-    height : 300px;
+    height : 220px;
     width: 550px ;
 }
 .profile{
