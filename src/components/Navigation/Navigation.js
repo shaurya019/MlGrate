@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-solid-svg-icons"
 import Naviextra from "./Naviextra.js"
 import './Navigation.css'
 import logo from '../../assets/logo.png'
@@ -32,8 +34,8 @@ const Navigation = (props) => {
 					</li>
 					{data ? 
 					<li className="nav-li Profile">
-						
 						<Link to="/Profile" id="">
+							<FontAwesomeIcon icon={faUser}/>
 							{data.email}
 						</Link>
 					</li>

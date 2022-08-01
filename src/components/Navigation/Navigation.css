@@ -58,3 +58,15 @@ ul {
 .nav-li a:hover::after{
     width: 100%;
 }
+
+.Profile{
+    padding: 0;
+    max-width: 150px;
+    overflow: hidden;
+}
+.Profile a{
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+

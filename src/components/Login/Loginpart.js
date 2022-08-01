@@ -1,7 +1,11 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import "./Login.css";
 
 const Loginpart = () => {
+    const [userIn,setUserIn] = useState({name:'',email:'',password:''});
+    const [userUp,setUserUp] = useState({email:'',password:''});
+    const [errormsg,seterrormsg] = useState('')
+
     useEffect(() =>{
         const signUpButton = document.getElementById("signUp");
         const signInButton = document.getElementById("signIn");
@@ -15,10 +19,23 @@ const Loginpart = () => {
           container.classList.remove("right-panel-active")
         );
     })
+    const handlesigninchange = (e)=>{
+
+    }
+    const handlesignupchange = (e)=>{
+        
+    }
+    const handlesignin = (e) => {
+        e.preventDefault();
+    }
+    const handlesignup = (e) => {
+        e.preventDefault();
+
+    }
     return (
  <div className="container" id="container">
          <div class="form-container sign-up-container">
-             <form action="#">
+             <form onSubmit={handlesignup}>
                  <h1 className='h1'>Create Account</h1>
                  <div className="social-container">
                      <a href="#" className="social-f"></a>
@@ -26,14 +43,14 @@ const Loginpart = () => {
                      <a href="#" className="social-gi"></a>
                  </div>
                  <span>or use your email for registration</span>
-                 <input type="text" placeholder="Name" />
-                 <input type="email" placeholder="Email" />
-                 <input type="password" placeholder="Password" />
+                 <input type="text" placeholder="Name" value={userIn.name} onChange={handlesigninchange}/>
+                 <input type="email" placeholder="Email" value={userIn.email} onChange={handlesigninchange}/>
+                 <input type="password" placeholder="Password" value={userIn.password} onChange={handlesigninchange}/>
                  <button className="btn-form">Sign Up</button>
              </form>
          </div>
          <div className="form-container sign-in-container">
-             <form action="#">
+             <form onSubmit={handlesignin}>
                  <h1 className='h1'>Sign in</h1>
                  <div className="social-container">
                  <a href="#" className="social-f"></a>
@@ -41,8 +58,8 @@ const Loginpart = () => {
                      <a href="#" className="social-gi"></a>
                  </div>
                  <span>or use your account</span>
-                 <input type="email" placeholder="Email" />
-                 <input type="password" placeholder="Password" />
+                 <input type="email" placeholder="Email" value={userUp.email} onChange={handlesignupchange}/>
+                 <input type="password" placeholder="Password" value={userUp.password} onChange={handlesignupchange}/>
                  <a className="forget"href="#">Forgot your password?</a>
                  <button className="btn-form">Sign In</button>
              </form>
