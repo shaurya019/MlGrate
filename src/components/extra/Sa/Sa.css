@@ -1,0 +1,17 @@
+.Sa-part{
+    margin: 40px 50px 10px 20px;
+}
+.Sa-head{
+    margin: 30px 0px 120px 0px ;
+}
+
+.Sa-head h1{
+    background-image: url("data:image/svg+xml,%3Csvg width='298' height='32' viewBox='0 0 298 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 17.1944C62.6418 7.28318 174.478 -8.49028 296 27' stroke='%23F6BFB3' stroke-width='9'/%3E%3C/svg%3E%0A");
+    background-size: 220px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 2px 12px;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}

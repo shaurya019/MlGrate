@@ -104,7 +104,7 @@
     justify-content: end;
     margin-right: 20px;
 }
-.mtn{
+.mtn a h6{
     background-color: rgba(240,142,128,.1);
     color: #FF5733;
     padding: 6px 10px;
@@ -116,7 +116,7 @@
     margin: 0px;
 }
 
-.mtn:hover{
+.mtn a h6:hover{
     background-color: #FF4C29;
     color: #fff;
 }

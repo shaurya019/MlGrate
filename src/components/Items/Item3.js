@@ -1,5 +1,5 @@
 import React from 'react'
-import Linkitem from './linkitem';
+import Linkitem from './linkitem/linkitem3';
 const Item3 = () => {
   return (
     <div className="I-product">
@@ -11,7 +11,7 @@ const Item3 = () => {
      <div class="profile">
      <div className="I-line1">
      <a>
-    <span id="it-1">Image Captioning</span>
+    <span id="it-1">🚀Image Captioning</span>
      </a>
      </div>
      <div class="content">

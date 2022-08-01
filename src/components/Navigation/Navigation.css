@@ -39,10 +39,10 @@ ul {
     padding: 0px 40px 0px 0px;
 
 }
-.nav-li a{
+.nav-li-nc a{
     position: relative;
 }
-.nav-li a:after{
+.nav-li-nc a:after{
     content: '';
     position: absolute;
     width: 0;
@@ -52,10 +52,10 @@ ul {
     background: #0078AA;
     transition: 0.3s; 
 }
-.nav-li a:hover{
+.nav-li-nc a:hover{
     color: #EF5B0C;
 }
-.nav-li a:hover::after{
+.nav-li-nc a:hover::after{
     width: 100%;
 }
 

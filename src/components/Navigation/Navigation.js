@@ -17,12 +17,12 @@ const Navigation = (props) => {
 			</div>
 			<div className="nav-items">
 				<ul className="nav-link">
-					<li className="nav-li">
+					<li className="nav-li nav-li-nc">
 						<Link to="/" id="link-1">
 							Home
 						</Link>
 					</li>
-					<li className="nav-li">
+					<li className="nav-li nav-li-nc">
 						<Link to="/Docs" id="">
 							Docs
 						</Link>
@@ -38,7 +38,7 @@ const Navigation = (props) => {
 						</Link>
 					</li>
 					:
-					<li className="nav-li" id="li-4">
+					<li className="nav-li nav-li-nc" id="li-4">
 						<Link to="/Login" id="">
 							Login
 						</Link>

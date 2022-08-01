@@ -9,17 +9,17 @@ const Naviextra = () => {
       <Dropdown.Toggle className="basic">Extra</Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item>
+        <Dropdown.Item className="extra-c">
           <Link to="/SA">
             Sentimental Analysis
           </Link>
         </Dropdown.Item>
-        <Dropdown.Item>
+        <Dropdown.Item className="extra-c">
           <Link to="/Pic">
             Pic 2 sketch
           </Link>
         </Dropdown.Item>
-        <Dropdown.Item>
+        <Dropdown.Item className="extra-c">
           <Link to="/Caption">
             Image Captioning
           </Link>
