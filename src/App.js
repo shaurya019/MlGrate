@@ -3,7 +3,9 @@ import Home from './pages/Home';
 import Docs from './pages/Docs';
 import Login from './pages/Login';
 import AP from './pages/AP';
-import Extra from './pages/Extra';
+import SA from './pages/Extra/SA.js';
+import Pic from './pages/Extra/Pic';
+import Caption from './pages/Extra/Caption';
 import Navigation from "./components/Navigation/Navigation";
 import React, { useEffect, useState } from "react";
 import Lottie from 'lottie-react';
@@ -52,7 +54,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Docs" element={<Docs />} />
-            <Route path="/Extra" element={<Extra />} />
+            <Route path="/SA" element={<SA />} />
+            <Route path="/Pic" element={<Pic />} />
+            <Route path="/Caption" element={<Caption />} />
             <Route path="/Profile" element={
               <Protected isLoggedIn={isloaggedin}>
                 <AP />

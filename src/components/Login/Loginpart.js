@@ -78,6 +78,7 @@ const Loginpart = () => {
                  </div>
              </div>
          </div>
+         
      </div> 
     );
   };

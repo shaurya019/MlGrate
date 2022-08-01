@@ -70,3 +70,15 @@ ul {
     column-gap: 4px;
 }
 
+.basic{
+    padding: 0px;
+    background-color: #fff;
+    color: #FFAB76;
+    font-size: 22px;
+    font-weight: 600;
+    border: #fff;
+}
+.basic:hover{
+    background-color: #fff;
+    color: #FFAB76;
+}

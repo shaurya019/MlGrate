@@ -28,9 +28,7 @@ const Navigation = (props) => {
 						</Link>
 					</li>
 					<li className="nav-li">
-						<Link to="/extra" id="">
-							<Naviextra />
-						</Link>
+					<Naviextra />
 					</li>
 					{data ? 
 					<li className="nav-li Profile">
