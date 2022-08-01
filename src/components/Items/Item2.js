@@ -14,7 +14,7 @@ const Item2 = () => {
      </div>
      <div class="content">
      <div className="I-line2">
-<p>we will try to convert a normal photo into a pencil sketch using computer vision in a python programming language. </p>
+<p>We will try to convert a normal photo into a pencil sketch using computer vision in a python programming language.  In order to convert the normal image to a sketch, we will change its original RGB values and assign its RGB values similar to grey, in this way a sketch of the input image will be generated.  </p>
 </div>
      </div>
     </div>

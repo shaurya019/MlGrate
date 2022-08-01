@@ -33,9 +33,9 @@ const Home = () => {
       <div className="packets">
       <Item3 />
       </div>
-      <div className="packets">
+      {/* <div className="packets">
       <Item4 />
-      </div>
+      </div> */}
       </div>
       </div>
   )

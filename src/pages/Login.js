@@ -1,5 +1,5 @@
 import React from 'react'
-import Loginpart from "../components/Login/Loginpart.js"
+import Loginpart from "../components/Login/Loginpart"
 
 const Login = () => {
   

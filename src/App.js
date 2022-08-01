@@ -3,7 +3,7 @@ import Home from './pages/Home';
 import Docs from './pages/Docs';
 import Login from './pages/Login';
 import AP from './pages/AP';
-// import extra from './pages/Extra';
+import Extra from './pages/Extra';
 import Navigation from "./components/Navigation/Navigation";
 import React, { useEffect, useState } from "react";
 import Lottie from 'lottie-react';
@@ -52,14 +52,13 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Docs" element={<Docs />} />
-            {/* <Route path="/Extra" element={<extra />} /> */}
+            <Route path="/Extra" element={<Extra />} />
             <Route path="/Profile" element={
               <Protected isLoggedIn={isloaggedin}>
                 <AP />
               </Protected>
             } />
-            <Route path="/Login" element={<Login />} />
-
+          <Route path="/Login" element={<Login />} />
           </Routes>
         </Router>
       }
