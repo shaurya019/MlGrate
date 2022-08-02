@@ -28,7 +28,13 @@ const Picpart = () => {
   <br/>
             </div>
             <div className="Pic-button">
-            <button type="submit" className="">Analyze</button>
+            <button type="submit" className="" onClick={()=>{
+                let btn = document.getElementsByClassName('Pic-button')[0].children[0];
+                btn.style.animation="button_pressed 0.2s";
+                setTimeout(() => {
+                  btn.style.animation="";
+                }, 200);
+              }}>Analyze</button>
             </div>
           </div>
           <div className="Pic-api">
