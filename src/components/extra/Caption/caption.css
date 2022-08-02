@@ -1,8 +1,8 @@
 .Caption-part{
-    margin: 40px 50px 10px 20px;
+    margin: 40px 50px 30px 20px;
 }
 .Caption-head{
-    margin: 30px 0px 120px 0px ;
+    margin: 30px 0px 90px 0px ;
 }
 
 .Caption-head h1{
@@ -14,4 +14,55 @@
     font-size: 40px;
     font-weight: 800;
     text-align: center;
+}
+.Caption-para p{
+    color: #505050;
+text-align: center;
+margin-bottom: 10px;
+}
+.Caption-para p{
+    color: #505050;
+text-align: center;
+margin-bottom: 10px;
+}
+.Caption-demo-part{
+display: flex;
+flex-direction: column;
+padding: 0px 50px;
+margin-bottom: 50px;
+}
+.Caption-demo-head h3{
+text-align: left;
+font-weight: 700;
+font-size: 25px;
+margin-bottom: 20px;
+}
+.Caption-demo-work{
+    display: flex;
+    flex-direction: row;
+    margin: 35px;
+}
+.Caption-text-part{
+    display: flex; 
+    flex-direction: column;
+padding: 0px 50px;
+}
+.Caption-text h4{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.Caption-review{
+    margin-bottom: 20px;
+}
+.Caption-write{
+
+}
+.Caption-api{
+
+}
+.Caption-api-head{
+
+}
+.Caption-api-write{
+    
 }

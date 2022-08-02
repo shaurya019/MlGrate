@@ -1,8 +1,8 @@
 .Pic-part{
-    margin: 40px 50px 10px 20px;
+    margin: 40px 50px 30px 20px;
 }
 .Pic-head{
-    margin: 30px 0px 120px 0px ;
+    margin: 30px 0px 90px 0px ;
 }
 
 .Pic-head h1{
@@ -15,3 +15,64 @@
     font-weight: 800;
     text-align: center;
 }
+.Pic-para p{
+    color: #505050;
+text-align: center;
+margin-bottom: 10px;
+}
+.Pic-para p{
+    color: #505050;
+text-align: center;
+margin-bottom: 10px;
+}
+.Pic-demo-part{
+display: flex;
+flex-direction: column;
+padding: 0px 50px;
+margin-bottom: 50px;
+}
+.Pic-demo-head h3{
+    text-align: left;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 20px;
+    }
+    .Pic-demo-work{
+        display: flex;
+        flex-direction: row;
+    }
+   .Pic-demo-head h3{
+    text-align: left;
+    font-weight: 700;
+    font-size: 25px;
+    }
+    .Pic-demo-work{
+        display: flex;
+        flex-direction: row;
+        margin: 35px;
+    }
+    .Pic-text-part{
+        display: flex; 
+        flex-direction: column;
+    padding: 0px 50px;
+    }
+    .Pic-text h4{
+    
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .Pic-review{
+        margin-bottom: 20px;
+    }
+    .Pic-write{
+    
+    }
+    .Pic-api{
+    
+    }
+    .Pic-api-head{
+    
+    }
+    .Pic-api-write{
+        
+    }
