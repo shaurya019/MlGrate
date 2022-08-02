@@ -5,7 +5,7 @@ const sec1 = () => {
   return (
     <div className="sec-part">
      <div className="sec-logo">
-    
+     
       </div>
       <div className="sec-line">
       <h4>Integrity</h4>
