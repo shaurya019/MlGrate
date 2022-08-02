@@ -70,14 +70,16 @@ ul {
     column-gap: 4px;
 }
 
-.basic{
+.basic,.btn:focus{
     padding: 0px;
     background-color: #fff;
     color: #FFAB76;
     font-size: 22px;
     font-weight: 600;
     border: #fff;
+    box-shadow: none;
 }
+
 .basic:hover{
     background-color: #fff;
     color: #FFAB76;

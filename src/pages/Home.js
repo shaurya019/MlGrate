@@ -5,7 +5,7 @@ import PartSection from "../components/Homesection/partsection"
 import Item1 from "../components/Items/Item1"
 import Item2 from "../components/Items/Item2"
 import Item3 from "../components/Items/Item3"
-import Item4 from "../components/Items/Item4"
+// import Item4 from "../components/Items/Item4"
 import "./pages.css"
 
 
