@@ -63,9 +63,6 @@ const Sapart = () => {
           </div>
         </div>
       </div>
-      <div class="footer-bar">
-        <p className="footer-bar-para">© 2022 MlGrate. All rights reserved.</p>
-      </div>
     </div>
     </div>
   );

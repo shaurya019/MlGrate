@@ -43,6 +43,7 @@
     background-position: -100%;
 }
 .profile:hover .content{
+    transition: .85s ease out;
     visibility: visible;
     opacity: 1;
     transform: translateX(10%) translateY(0px);
@@ -59,7 +60,7 @@
  background-size: 200%;
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
- transition: 0.5s ease-out;
+ transition: 0.85s ease-out;
 }
 
 .I-line2 p{

@@ -1,0 +1,36 @@
+*{
+
+}
+.Footer{
+    background-color: rgb(222, 39, 39);
+}
+.footer{
+    margin: 10px 40px;
+    padding:20px;
+}
+.footer-main{
+    display: flex;
+    flex-direction: row;
+}
+.footer-logo{
+    margin-right: 70px;
+}
+.footer-Link{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.footer-Links h2{
+    font-size: 35px;
+    font-weight: 900;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+.footer-links li Link{
+    color:#fff;
+}

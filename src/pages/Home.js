@@ -5,6 +5,7 @@ import PartSection from "../components/Homesection/partsection"
 import Item1 from "../components/Items/Item1"
 import Item2 from "../components/Items/Item2"
 import Item3 from "../components/Items/Item3"
+// import Footer from "../components/footer/Footer"
 // import Item4 from "../components/Items/Item4"
 import "./pages.css"
 
@@ -33,10 +34,13 @@ const Home = () => {
       <div className="packets">
       <Item3 />
       </div>
-      {/* <div className="packets">
-      <Item4 />
-      </div> */}
       </div>
+      <div class="footer-bar"><p class="footer-bar-para">© 2022 MlGrate. All rights reserved.</p></div>
+      <br/>
+      <br/>
+      {/* <div className="home-footer">
+       <Footer />
+      </div> */}
       </div>
   )
 }
