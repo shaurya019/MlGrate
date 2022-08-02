@@ -9,7 +9,7 @@ const Picpart = () => {
         <h1>Pic 2 sketch</h1>
         <div className="Pic-para">
         <p>
-        A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of three or more sentences.
+        Return Pic 2 sketch results with score for the given text.
         </p>
         </div>
         </div>
@@ -40,6 +40,20 @@ const Picpart = () => {
           </div>
           </div>
         </div>
+        <div className="Pic-p">
+          <div className="Pic-p-head">
+            <h3>📍 The Possibilities</h3>
+            </div>
+            <hr/>
+            <div className="Pic-p-text">
+            <p className="">
+            Our Sentiment Analysis API is a good place to find out the tone of a sentence or paragraph. This API can be useful if you have a large amount of user responses or reviews and you want to quickly find the negative comments to see what your customers don’t like and vice versa.
+            <br />
+            <br />
+However, our API gives you more power than that. Besides just reading the type response (“negative”, ”neutral”, or ”positive”), you can actually determine for yourself what you consider positive or negative. In our blog article titled "Interpreting the Score and Ratio of Sentiment Analysis", we explain two useful information, score and ratio, that our API returns for each text analyzed.
+            </p>
+          </div>
+          </div>
       </div>
       <div class="footer-bar">
         <p className="footer-bar-para">© 2022 MlGrate. All rights reserved.</p>

@@ -24,7 +24,7 @@ margin-bottom: 10px;
 display: flex;
 flex-direction: column;
 padding: 0px 50px;
-margin-bottom: 20px;
+margin-bottom: 40px;
 }
 .Sa-demo-head h3{
 text-align: left;
@@ -49,15 +49,32 @@ padding: 0px 50px;
 .Sa-review{
     margin-bottom: 20px;
 }
-.Sa-write{
-
+.Sa-p{
+    margin: 55px 30px 0px 30px;
 }
-.Sa-api{
-
+.Sa-p-head h3{
+    text-align: left;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
-.Sa-api-head{
-
+.Sa-p-text p{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7em;
+    padding: 20px;
+    width: 100%;
+text-align: -webkit-left;
 }
 .Sa-api-write{
-    
+    position: relative;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0;
+    min-height: 200px;
+    max-height: 400px;
+    width: 100%;
+    background-color: #EEEEEE;
+    color: #222222;
+    overflow: auto;
 }
