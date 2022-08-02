@@ -25,7 +25,7 @@ a{
   }
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 20px;
 }
 
@@ -41,4 +41,4 @@ a{
 
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(#923CB5,#000000); 
-}
+} */

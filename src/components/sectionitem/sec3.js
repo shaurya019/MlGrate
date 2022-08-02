@@ -8,10 +8,10 @@ const sec3 = () => {
      {/* <img src="" alt="tag" /> */}
      </div>
      <div className="sec-line">
-     <h4>Performant</h4>
+     <h4>Reliable</h4>
    </div>
    <div className="sec-para">
-   <p>In most cases, the connection will be established with WebSocket, providing a  server and the client.</p>
+   <p>Process API request with low errors.</p>
    </div> 
    </div>
   )

@@ -8,10 +8,10 @@ const sec1 = () => {
     
       </div>
       <div className="sec-line">
-      <h4>Performant</h4>
-    </div>
-    <div className="sec-para">
-    <p>In most cases, the connection will be established with WebSocket, providing a  server and the client.</p>
+      <h4>Integrity</h4>
+      </div>
+    <div className="sec-para" id="sec-para1"> 
+    <p>We can intergrate to those who support REST FULL API services.</p>
     </div> 
     </div>
   )
