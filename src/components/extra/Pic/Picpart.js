@@ -6,16 +6,19 @@ const baseURL = process.env.REACT_APP_API_KEY
 
 const Picpart = () => {
 
-  const [imageURL,setimageURL] = useState();
+  const [imageURL, setimageURL] = useState();
+  const [result, setresult] = useState();
 
-  const handleupload = ()=>{
-    Axios({
-        method: "post",
-        url: "/api/upload/file",
-        data: formData,
-        headers: { "Content-Type": "multipart/form-data" },
-      }).then()
-     .catch(error)
+  const handleupload = () => {
+    let data = new FormData();
+    data.append("image_url", imageURL, imageURL.name);
+    Axios.post(baseURL + "/sketch/", data, {
+      headers: {
+        "Content-Type": "multipart/form-data",
+      }
+    })
+      .then(response => setresult('http://127.0.0.1:8000/media/images/' + response.data + '.png'))
+      .catch(error => console.error(error))
   }
   return (
     <div className="Pic-part">
@@ -39,21 +42,22 @@ const Picpart = () => {
             </div>
             <div className="Pic-write">
               <br />
-              <input type="file" accept='image/*' onChange={(e)=>{
-                setimageURL(e.target.files)
-                console.log(e.target.files)
-              }}/>
+              <input type="file" accept='image/*' onChange={(e) => {
+                setimageURL(e.target.files[0])
+                // console.log(e.target.files[0].name)
+              }} />
               <br />
               <br />
-              {imageURL && <img src={imageURL} /> }
+              {imageURL && <img src={URL.createObjectURL(imageURL)} alt="Not Found" style={{ maxHeight: '500px', maxWidth: "500px" }} />}
             </div>
-            <div className="Pic-button">
+            <div className="Pic-button" style={{ marginTop: "10px" }}>
               <button type="submit" className="" onClick={() => {
                 let btn = document.getElementsByClassName('Pic-button')[0].children[0];
                 btn.style.animation = "button_pressed 0.2s";
                 setTimeout(() => {
                   btn.style.animation = "";
                 }, 200);
+                setresult('');
                 handleupload();
               }}>Analyze</button>
             </div>
@@ -63,7 +67,7 @@ const Picpart = () => {
               <h5>Result:</h5>
             </div>
             <div className="Pic-api-write">
-
+              {result && <img src={result} alt='result' />}
             </div>
           </div>
         </div>
@@ -74,10 +78,11 @@ const Picpart = () => {
           <hr />
           <div className="Pic-p-text">
             <p className="">
-            Photo2Sketch is an online image converting service that allows you to make your own sketch photos like charcoal drawings in seconds.
+              Photo2Sketch is an online image converting service that allows you to make your own sketch photos like charcoal drawings in seconds.
               <br />
               <br />
-              However, our API gives you more power than that. Besides just reading the type response (“negative”, ”neutral”, or ”positive”), you can actually determine for yourself what you consider positive or negative. In our blog article titled "Interpreting the Score and Ratio of Sentiment Analysis", we explain two useful information, score and ratio, that our API returns for each text analyzed.
+              Turn Portrait Photo into Sketch/Pencil Portrait Sketch
+              Everyone loves getting a pencil portrait sketch drawn by a professional, but it takes time and effort. A better solution here is using Fotor's picture to drawing converter. Convert your picture into a sketch portrait drawing in a few simple steps. It’s not only fast but provides high-definition images as well.
             </p>
           </div>
         </div>
