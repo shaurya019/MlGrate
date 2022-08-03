@@ -6,6 +6,10 @@
     position: absolute;
     z-index: -1;
 }
+.sec-lottie2{
+    position: absolute;
+    z-index: -2;
+}
 .partsection{
     margin: 80px 40px;
 }

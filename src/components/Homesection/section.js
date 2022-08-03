@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 const Section = () => {
   const container = useRef(null)
+  const container2 = useRef(null)
   useEffect(() => {
     lottie.loadAnimation({
       container: container.current,
@@ -14,10 +15,18 @@ const Section = () => {
       autoplay: true,
       animationData: require('../../assets/background.json')
     })
+    lottie.loadAnimation({
+      container: container2.current,
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      animationData: require('../../assets/background2.json')
+    })
   }, [])
   return (
     <div className="section">
       <div className="sec-lottie" ref={container}></div>
+      <div className="sec-lottie2" ref={container2}></div>
       <div className="section-head" >
         <div className="section-logo">
           <img src={logo} alt="logo" style={{ height: 200 }} />

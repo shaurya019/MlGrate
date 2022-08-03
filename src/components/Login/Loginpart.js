@@ -1,13 +1,18 @@
 import React, { useEffect, useState } from 'react';
+import { Navigate,useNavigate } from 'react-router-dom';
+import Axios from 'axios';
 import Alert from 'react-bootstrap/Alert';
 // import Button from 'react-bootstrap/Button';
 import "./Login.css";
 
-const Loginpart = () => {
+const baseURL = process.env.REACT_APP_API_KEY
+
+const Loginpart = (props) => {
     const [userIn, setUserIn] = useState({ name: '', email: '', password: '' });
     const [userUp, setUserUp] = useState({ email: '', password: '' });
     const [errormsg, seterrormsg] = useState({title:'',msg:''});
     const [showerr,setshowerr] = useState(false);
+    const navigate = useNavigate();
 
 
     useEffect(() => {
@@ -24,18 +29,44 @@ const Loginpart = () => {
         );
     })
     const handlesigninchange = (e) => {
-
+        // setUserIn(()=>{..., e.target.name : e.target.value })
     }
     const handlesignupchange = (e) => {
 
     }
     const handlesignin = (e) => {
         e.preventDefault();
+        Axios.get(baseURL+"/users/")
+      .then((response) =>{
+        // props.setisloaggedin(response.data);
+        // console.log(response.data);
+        props.handlelogin(response.data);
+      })
+      .catch(error => console.log(error));
+      navigate('/');
+    //   <Redirect to='/' />
+    //    <Navigate to="/" replace />
+      
     }
     const handlesignup = (e) => {
+        // e.preventDefault();
         e.preventDefault();
+        Axios.get(baseURL+"/users/")
+      .then((response) =>{
+        // props.setisloaggedin(response.data);
+        // console.log(response.data);
+        props.handlelogin(response.data);
+      })
+      .catch(error => console.log(error));
+      Navigate('/');
 
     }
+
+    if(props.isloaggedin){
+        return <Navigate to='/AP' replace />
+    }
+    
+
     return (
         <>
         {showerr && 
@@ -57,10 +88,10 @@ const Loginpart = () => {
                         <a href="#" className="social-gi"></a>
                     </div>
                     <span>or use your email for registration</span>
-                    <input type="text" placeholder="Name" value={userIn.name} onChange={handlesigninchange} />
-                    <input type="email" placeholder="Email" value={userIn.email} onChange={handlesigninchange} />
-                    <input type="password" placeholder="Password" value={userIn.password} onChange={handlesigninchange} />
-                    <button className="btn-form">Sign Up</button>
+                    <input type="text" placeholder="Name"  name='name' onChange={handlesigninchange} />
+                    <input type="email" placeholder="Email"  name='email' onChange={handlesigninchange} />
+                    <input type="password" placeholder="Password" name='password' onChange={handlesigninchange} />
+                    <button className="btn-form" onClick={handlesignup}>Sign Up</button>
                 </form>
             </div>
             <div className="form-container sign-in-container">
@@ -72,10 +103,10 @@ const Loginpart = () => {
                         <a href="#" className="social-gi"></a>
                     </div>
                     <span>or use your account</span>
-                    <input type="email" placeholder="Email" value={userUp.email} onChange={handlesignupchange} />
-                    <input type="password" placeholder="Password" value={userUp.password} onChange={handlesignupchange} />
+                    <input type="email" placeholder="Email"  name='email' onChange={handlesignupchange} />
+                    <input type="password" placeholder="Password" name='password' onChange={handlesignupchange} />
                     <a className="forget" href="#">Forgot your password?</a>
-                    <button className="btn-form">Sign In</button>
+                    <button className="btn-form" onClick={handlesignin}>Sign In</button>
                 </form>
             </div>
             <div className="overlay-container">

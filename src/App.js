@@ -32,19 +32,14 @@ function App() {
 
 
     cookies.set('id','1',{path:'/'})
-    if(cookies.get('id')){
-      // console.log("found");
-      Axios.get(baseURL+"/users/")
-      .then((response) =>{
-        setisloaggedin(response.data);
-      })
-      .catch(error => console.log(error));
-      // setisloaggedin(true);
-    }
     
     // console.log(isloaggedin);
 
   }, []);
+
+  const handlelogin = (value)=>{
+    setisloaggedin(value);
+  }
 
   return (
     <>
@@ -62,7 +57,7 @@ function App() {
                 <AP />
               </Protected>
             } />
-          <Route path="/Login" element={<Login />} />
+          <Route path="/Login" element={<Login isloaggedin={isloaggedin} handlelogin={handlelogin}/>} />
           </Routes>
         </Router>
       }

@@ -1,11 +1,11 @@
 import React from 'react'
 import Loginpart from "../components/Login/Loginpart"
 
-const Login = () => {
-  
+const Login = (props) => {
+  const {handlelogin} = props;
 return (
          <div className="Login-part">
-           <Loginpart />
+           <Loginpart isloggedin={props.isloggedin} handlelogin={handlelogin}/>
          </div>   
   );
 };
