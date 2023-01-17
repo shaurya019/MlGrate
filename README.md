@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+MLGrate 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ABOUT:
+MLGrate is saas ‘software as a service’ webapp. It integrates different ML Solutions and provide the REST Ful api service to the user. So We are trying to develop a API Service platform for ML/DL operations like Sentiment analysis, Image Captioning, Text Analysis and others.
 
-## Available Scripts
+MOTIVE:
+Machine learning is the future of technologies. Nowadays every software’s, webapp try to integrate different ML programs to enhance their results and services But the problem is its implementation, like a website/software using technology Java/NodeJs, now integrating ML program is difficult for them. At this time REST Ful Api come in the picture .
+.
+Nowadays almost all these big technologies have access to REST Ful API that makes this project interesting and feasible.
 
-In the project directory, you can run:
+Following features need to be added to the project:
 
-### `npm start`
+Authorization of users with Gmail, Facebook, Email/password to check their progress.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Sentiment Analysis : Users get the access to the sentiment analysis program, they can integrate and get the sentiments of their users’ feedback.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Image Captioning : Today we feel that how much the machine is getting knowledgeful, it predicts the different things present in the photo and Users get the access to use this service to check details of different images.
 
-### `npm test`
+Pic2Sketch : Isn’t it interesting to convert your image to sketch and show others that’s it You get the access to convert your images to sketch at just a api call.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Emotion Analysis : Get the details of emotion of your users by their feedbacks, are they happy, joyful, sad, anger and a lot more. Enhance your service and  better insight
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![WhatsApp Image 2023-01-17 at 10 09 50](https://user-images.githubusercontent.com/82964271/212811810-352383af-5351-4182-bef1-16b82a5c935f.jpeg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+![WhatsApp Image 2023-01-17 at 10 09 50 (3)](https://user-images.githubusercontent.com/82964271/212811811-12c9ae4e-8933-4dd8-9f1a-cab5eb4f5efd.jpeg)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![WhatsApp Image 2023-01-17 at 10 11 54](https://user-images.githubusercontent.com/82964271/212812245-96ecae8e-3af4-4536-adfc-e00ded9721e2.jpeg)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![WhatsApp Image 2023-01-17 at 10 09 50 (4)](https://user-images.githubusercontent.com/82964271/212812269-ae4ae4dd-3fa5-48f6-a25e-db81db335f73.jpeg)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![WhatsApp Image 2023-01-17 at 10 09 50 (5)](https://user-images.githubusercontent.com/82964271/212812287-e81669d2-5db6-4cb9-9842-6080a3abb692.jpeg)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+![WhatsApp Image 2023-01-17 at 10 11 54 (1)](https://user-images.githubusercontent.com/82964271/212812296-89e85688-b3a6-45df-9d55-44765d064ec4.jpeg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![WhatsApp Image 2023-01-17 at 10 09 50 (7)](https://user-images.githubusercontent.com/82964271/212812311-0959db35-405b-4660-b803-91bc6552fbe4.jpeg)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+![WhatsApp Image 2023-01-17 at 10 09 50 (8)](https://user-images.githubusercontent.com/82964271/212812324-083b5667-8031-4461-8b2e-f6b9b8bcbbaa.jpeg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+![WhatsApp Image 2023-01-17 at 10 09 50 (6)](https://user-images.githubusercontent.com/82964271/212812334-2847771b-819c-4e83-b383-09e3d9b1b450.jpeg)
+
+
+![WhatsApp Image 2023-01-17 at 10 09 50 (1)](https://user-images.githubusercontent.com/82964271/212812350-9883e3f8-91d3-4920-a84e-de1a51a5ce7c.jpeg)
+
+
+![WhatsApp Image 2023-01-17 at 10 09 50 (2)](https://user-images.githubusercontent.com/82964271/212812369-c7cf1448-728a-4718-abda-f9627350da65.jpeg)
